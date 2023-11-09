@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Pokédex API",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "/api"
+        }
+    ],
+    "paths": {
+        "/pokemon": {
+            "get": {
+                "summary": "Pokemon",
+                "description": "Fetches all available pokemon.",
+                "operationId": "3a3e21df857b35f99e29f2796d1af025",
+                "responses": {
+                    "200": {
+                        "description": "OK: Data is returned as an array"
+                    }
+                }
+            }
+        },
+        "/types": {
+            "get": {
+                "summary": "Types",
+                "description": "Fetches all available types.",
+                "operationId": "5bfbea6f842d915199afbcaac0f7527a",
+                "responses": {
+                    "200": {
+                        "description": "OK: Data is returned as an array"
+                    }
+                }
+            }
+        }
+    }
+}
