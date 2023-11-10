@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PokemonResource;
 use App\Models\Pokemon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
@@ -25,11 +26,11 @@ class ListPokemon extends Controller
     {
         return Response::json([
             'success' => true,
-            'data'    => Pokemon::with([
+            'data'    => PokemonResource::collection(Pokemon::with([
                 'types',
                 'evolvedFrom',
                 'evolvesTo'
-            ])->get()
+            ])->get())
         ]);
     }
 }
