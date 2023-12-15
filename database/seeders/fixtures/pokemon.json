@@ -8713,7 +8713,7 @@
                 {
                     "pokedexId": 186,
                     "name": "Tarpaud",
-                    "condition": "Echange avec Roche Royale"
+                    "condition": "Échange avec Roche Royale"
                 }
             ],
             "mega": null
@@ -8864,7 +8864,7 @@
                 {
                     "pokedexId": 186,
                     "name": "Tarpaud",
-                    "condition": "Echange avec Roche Royale"
+                    "condition": "Échange avec Roche Royale"
                 }
             ],
             "mega": null
@@ -9158,7 +9158,7 @@
                 {
                     "pokedexId": 65,
                     "name": "Alakazam",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -9304,7 +9304,7 @@
                 {
                     "pokedexId": 65,
                     "name": "Alakazam",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -9448,7 +9448,7 @@
                 {
                     "pokedexId": 64,
                     "name": "Kadabra",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "next": null,
@@ -9602,7 +9602,7 @@
                 {
                     "pokedexId": 68,
                     "name": "Mackogneur",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -9748,7 +9748,7 @@
                 {
                     "pokedexId": 68,
                     "name": "Mackogneur",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -9895,7 +9895,7 @@
                 {
                     "pokedexId": 67,
                     "name": "Machopeur",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "next": null,
@@ -10769,7 +10769,7 @@
                 {
                     "pokedexId": 76,
                     "name": "Grolem",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -10923,7 +10923,7 @@
                 {
                     "pokedexId": 76,
                     "name": "Grolem",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -11075,7 +11075,7 @@
                 {
                     "pokedexId": 75,
                     "name": "Gravalanch",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "next": null,
@@ -11828,7 +11828,7 @@
                 {
                     "pokedexId": 462,
                     "name": "Magn\u00e9zone",
-                    "condition": "Gain de niveau dans champ magn\u00e9tique sp\u00e9cial/Pierre Foudre (depuis EB)"
+                    "condition": "Pierre Foudre"
                 }
             ],
             "mega": null
@@ -11975,7 +11975,7 @@
                 {
                     "pokedexId": 462,
                     "name": "Magn\u00e9zone",
-                    "condition": "Gain de niveau dans champ magn\u00e9tique sp\u00e9cial/Pierre Foudre (depuis EB)"
+                    "condition": "Pierre Foudre"
                 }
             ],
             "mega": null
@@ -13398,7 +13398,7 @@
                 {
                     "pokedexId": 94,
                     "name": "Ectoplasma",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -13540,7 +13540,7 @@
                 {
                     "pokedexId": 94,
                     "name": "Ectoplasma",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "mega": null
@@ -13687,7 +13687,7 @@
                 {
                     "pokedexId": 93,
                     "name": "Spectrum",
-                    "condition": "Echange/Au contact d'un Fil de Liaison"
+                    "condition": "Échange"
                 }
             ],
             "next": null,
@@ -13840,7 +13840,7 @@
                 {
                     "pokedexId": 208,
                     "name": "Steelix",
-                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
+                    "condition": "Échange avec Peau M\u00e9tal"
                 }
             ],
             "mega": null
@@ -16106,7 +16106,7 @@
                 {
                     "pokedexId": 464,
                     "name": "Rhinastoc",
-                    "condition": "Echange avec Protecteur/Contact d'un Protecteur"
+                    "condition": "Échange avec Protecteur"
                 }
             ],
             "mega": null
@@ -16257,7 +16257,7 @@
                 {
                     "pokedexId": 464,
                     "name": "Rhinastoc",
-                    "condition": "Echange avec Protecteur/Contact d'un Protecteur"
+                    "condition": "Échange avec Protecteur"
                 }
             ],
             "mega": null
@@ -16397,7 +16397,7 @@
                 {
                     "pokedexId": 440,
                     "name": "Ptiravi",
-                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale / Contact avec Pierre Ovale le jour (PLA)"
+                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale"
                 }
             ],
             "next": [
@@ -16831,7 +16831,7 @@
                 {
                     "pokedexId": 230,
                     "name": "Hyporoi",
-                    "condition": "Echange avec \u00c9caille Draco"
+                    "condition": "Échange avec \u00c9caille Draco"
                 }
             ],
             "mega": null
@@ -16978,7 +16978,7 @@
                 {
                     "pokedexId": 230,
                     "name": "Hyporoi",
-                    "condition": "Echange avec \u00c9caille Draco"
+                    "condition": "Échange avec \u00c9caille Draco"
                 }
             ],
             "mega": null
@@ -17829,12 +17829,12 @@
                 {
                     "pokedexId": 212,
                     "name": "Cizayox",
-                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
+                    "condition": "Échange avec Peau M\u00e9tal"
                 },
                 {
                     "pokedexId": 900,
                     "name": "Hach\u00e9cateur",
-                    "condition": "Avec une obsidienne (PLA)"
+                    "condition": "Avec une obsidienne"
                 }
             ],
             "mega": null
@@ -18120,7 +18120,7 @@
                 {
                     "pokedexId": 466,
                     "name": "\u00c9lekable",
-                    "condition": "Echange avec \u00c9lectriseur/Contact d'un \u00c9lectriseur"
+                    "condition": "Échange avec \u00c9lectriseur"
                 }
             ],
             "mega": null
@@ -18262,7 +18262,7 @@
                 {
                     "pokedexId": 467,
                     "name": "Maganon",
-                    "condition": "Echange avec Magmariseur/Contact d'un Magmariseur"
+                    "condition": "Échange avec Magmariseur"
                 }
             ],
             "mega": null
@@ -19253,17 +19253,17 @@
                 {
                     "pokedexId": 470,
                     "name": "Phyllali",
-                    "condition": "+1 Niveau vers Pierre Mousse (Avant EB+DEPS) / Pierre Plante / Proche d'une Roche Moussue (PLA)"
+                    "condition": "Pierre Plante"
                 },
                 {
                     "pokedexId": 471,
                     "name": "Givrali",
-                    "condition": "+1 Niveau vers Pierre Glac\u00e9e (Avant EB+DEPS) / Pierre Glace / Proche d'une Roche Gel\u00e9e (PLA)"
+                    "condition": "Pierre Glace"
                 },
                 {
                     "pokedexId": 700,
                     "name": "Nymphali",
-                    "condition": "2 coeurs d'affections Pok\u00e9 R\u00e9cr\u00e9 / Pok\u00e9 D\u00e9tente + 1 niveau avec une capacit\u00e9 F\u00e9e (Avant EB) / Bonheur + capacit\u00e9 F\u00e9e (Depuis EB sauf DEPS)"
+                    "condition": "Bonheur + capacit\u00e9 F\u00e9e"
                 }
             ],
             "mega": null
@@ -19811,12 +19811,12 @@
                 {
                     "pokedexId": 233,
                     "name": "Porygon2",
-                    "condition": "Echange avec Am\u00e9liorator/Contact d'un Am\u00e9liorator (PLA)"
+                    "condition": "Échange avec Am\u00e9liorator"
                 },
                 {
                     "pokedexId": 474,
                     "name": "Porygon-Z",
-                    "condition": "Echange avec CD Douteux/Contact d'un CD Douteux (PLA)"
+                    "condition": "Échange avec CD Douteux"
                 }
             ],
             "mega": null
@@ -22291,17 +22291,12 @@
                 {
                     "pokedexId": 156,
                     "name": "Feurisson",
-                    "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"
+                    "condition": "Niveau 14"
                 },
                 {
                     "pokedexId": 157,
                     "name": "Typhlosion",
                     "condition": "Niveau 36"
-                },
-                {
-                    "pokedexId": 157,
-                    "name": "Typhlosion de Hisui",
-                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -22436,7 +22431,7 @@
                 {
                     "pokedexId": 155,
                     "name": "H\u00e9ricendre",
-                    "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"
+                    "condition": "Niveau 14"
                 }
             ],
             "next": [
@@ -22444,11 +22439,6 @@
                     "pokedexId": 157,
                     "name": "Typhlosion",
                     "condition": "Niveau 36"
-                },
-                {
-                    "pokedexId": 157,
-                    "name": "Typhlosion de Hisui",
-                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -22583,7 +22573,7 @@
                 {
                     "pokedexId": 155,
                     "name": "H\u00e9ricendre",
-                    "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"
+                    "condition": "Niveau 14"
                 },
                 {
                     "pokedexId": 156,
@@ -26769,7 +26759,7 @@
                 {
                     "pokedexId": 61,
                     "name": "T\u00eatarte",
-                    "condition": "Echange avec Roche Royale"
+                    "condition": "Échange avec Roche Royale"
                 }
             ],
             "next": null,
@@ -29733,7 +29723,7 @@
                 {
                     "pokedexId": 472,
                     "name": "Scorvol",
-                    "condition": "+1 Niveau avec Croc Rasoir / Contact d'un Croc Rasoir (PLA)"
+                    "condition": "+1 Niveau avec Croc Rasoir"
                 }
             ],
             "mega": null
@@ -29876,7 +29866,7 @@
                 {
                     "pokedexId": 95,
                     "name": "Onix",
-                    "condition": "Echange avec Peau M\u00e9tal / Au contact d'une Peau M\u00e9tal (PLA)"
+                    "condition": "Échange avec Peau M\u00e9tal"
                 }
             ],
             "next": null,
@@ -30440,7 +30430,7 @@
                 {
                     "pokedexId": 123,
                     "name": "Ins\u00e9cateur",
-                    "condition": "Echange avec Peau M\u00e9tal / Au contact d'une Peau M\u00e9tal (PLA)"
+                    "condition": "Échange avec Peau M\u00e9tal"
                 }
             ],
             "next": null,
@@ -30873,7 +30863,7 @@
                 {
                     "pokedexId": 461,
                     "name": "Dimoret",
-                    "condition": "+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir"
+                    "condition": "+1 Niveau avec Griffe Rasoir"
                 }
             ],
             "mega": null
@@ -33029,7 +33019,7 @@
                 {
                     "pokedexId": 117,
                     "name": "Hypoc\u00e9an",
-                    "condition": "Echange avec \u00c9caille Draco"
+                    "condition": "Échange avec \u00c9caille Draco"
                 }
             ],
             "next": null,
@@ -33442,14 +33432,14 @@
                 {
                     "pokedexId": 137,
                     "name": "Porygon",
-                    "condition": "Echange avec Am\u00e9liorator/Contact d'un Am\u00e9liorator (PLA)"
+                    "condition": "Échange avec Am\u00e9liorator"
                 }
             ],
             "next": [
                 {
                     "pokedexId": 474,
                     "name": "Porygon-Z",
-                    "condition": "Echange avec CD Douteux/Contact d'un CD Douteux (PLA)"
+                    "condition": "Échange avec CD Douteux"
                 }
             ],
             "mega": null
@@ -34287,7 +34277,7 @@
                 {
                     "pokedexId": 466,
                     "name": "\u00c9lekable",
-                    "condition": "Echange avec \u00c9lectriseur/Contact d'un \u00c9lectriseur"
+                    "condition": "Échange avec \u00c9lectriseur"
                 }
             ],
             "mega": null
@@ -34426,7 +34416,7 @@
                 {
                     "pokedexId": 467,
                     "name": "Maganon",
-                    "condition": "Echange avec Magmariseur/Contact d'un Magmariseur"
+                    "condition": "Échange avec Magmariseur"
                 }
             ],
             "mega": null
@@ -34693,7 +34683,7 @@
                 {
                     "pokedexId": 440,
                     "name": "Ptiravi",
-                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale / Contact avec Pierre Ovale le jour (PLA)"
+                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale"
                 },
                 {
                     "pokedexId": 113,
@@ -42805,7 +42795,7 @@
                 {
                     "pokedexId": 476,
                     "name": "Tarinorme",
-                    "condition": "+1 Niveau dans Champ Magn\u00e9tique / Pierre Foudre (PLA)"
+                    "condition": "+1 Niveau dans Champ Magn\u00e9tique"
                 }
             ],
             "mega": null
@@ -49802,7 +49792,7 @@
                 {
                     "pokedexId": 350,
                     "name": "Milobellus",
-                    "condition": "Beaut\u00e9 sup\u00e9rieur ou \u00e9gal \u00e0 170 + 1 niveau (RSE \u00e0 N2B2 + ROSA + DEPS) / Echange avec Bel'\u00c9caille (depuis NB)"
+                    "condition": "Échange avec Bel'\u00c9caille"
                 }
             ],
             "mega": null
@@ -49942,7 +49932,7 @@
                 {
                     "pokedexId": 349,
                     "name": "Barpau",
-                    "condition": "Beaut\u00e9 sup\u00e9rieur ou \u00e9gal \u00e0 170 + 1 niveau (RSE \u00e0 N2B2 + ROSA + DEPS) / Echange avec Bel'\u00c9caille (depuis NB)"
+                    "condition": "Échange avec Bel'\u00c9caille"
                 }
             ],
             "next": null,
@@ -50622,7 +50612,7 @@
                 {
                     "pokedexId": 477,
                     "name": "Noctunoir",
-                    "condition": "Echange en tant Tissu Fauche / Contact d'un Tissu Fauche (PLA)"
+                    "condition": "Échange avec Tissu Fauche"
                 }
             ],
             "mega": null
@@ -50764,7 +50754,7 @@
                 {
                     "pokedexId": 477,
                     "name": "Noctunoir",
-                    "condition": "Echange en tant Tissu Fauche / Contact d'un Tissu Fauche (PLA)"
+                    "condition": "Échange avec Tissu Fauche"
                 }
             ],
             "mega": null
@@ -52189,12 +52179,12 @@
                 {
                     "pokedexId": 367,
                     "name": "Serpang",
-                    "condition": "Echange avec Dent Oc\u00e9an"
+                    "condition": "Échange avec Dent Oc\u00e9an"
                 },
                 {
                     "pokedexId": 368,
                     "name": "Rosabyss",
-                    "condition": "Echange avec \u00c9caille Oc\u00e9an"
+                    "condition": "Échange avec \u00c9caille Oc\u00e9an"
                 }
             ],
             "mega": null
@@ -52329,7 +52319,7 @@
                 {
                     "pokedexId": 366,
                     "name": "Coquiperl",
-                    "condition": "Echange avec Dent Oc\u00e9an"
+                    "condition": "Échange avec Dent Oc\u00e9an"
                 }
             ],
             "next": null,
@@ -52465,7 +52455,7 @@
                 {
                     "pokedexId": 366,
                     "name": "Coquiperl",
-                    "condition": "Echange avec \u00c9caille Oc\u00e9an"
+                    "condition": "Échange avec \u00c9caille Oc\u00e9an"
                 }
             ],
             "next": null,
@@ -62430,7 +62420,7 @@
                 {
                     "pokedexId": 113,
                     "name": "Leveinard",
-                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale / Contact avec Pierre Ovale le jour (PLA)"
+                    "condition": "+1 Niveau la journ\u00e9e avec Pierre Ovale"
                 },
                 {
                     "pokedexId": 242,
@@ -65388,7 +65378,7 @@
                 {
                     "pokedexId": 215,
                     "name": "Farfuret",
-                    "condition": "+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir (PLA)"
+                    "condition": "+1 Niveau avec Griffe Rasoir"
                 }
             ],
             "next": null,
@@ -65823,7 +65813,7 @@
                 {
                     "pokedexId": 112,
                     "name": "Rhinof\u00e9ros",
-                    "condition": "Echange avec Protecteur / Contact d'un Protecteur (PLA)"
+                    "condition": "Échange avec Protecteur"
                 }
             ],
             "next": null,
@@ -66105,7 +66095,7 @@
                 {
                     "pokedexId": 125,
                     "name": "\u00c9lektek",
-                    "condition": "Echange avec \u00c9lectriseur / Contact d'un \u00c9lectriseur (PLA)"
+                    "condition": "Échange avec \u00c9lectriseur"
                 }
             ],
             "next": null,
@@ -66246,7 +66236,7 @@
                 {
                     "pokedexId": 126,
                     "name": "Magmar",
-                    "condition": "Echange avec Magmariseur / Contact d'un Magmariseur (PLA)"
+                    "condition": "Échange avec Magmariseur"
                 }
             ],
             "next": null,
@@ -66812,7 +66802,7 @@
                 {
                     "pokedexId": 133,
                     "name": "\u00c9voli",
-                    "condition": "+1 Niveau Mont Lanakila / Pierre Glace (depuis EB)"
+                    "condition": "Pierre Glace"
                 }
             ],
             "next": null,
@@ -66956,7 +66946,7 @@
                 {
                     "pokedexId": 207,
                     "name": "Scorplane",
-                    "condition": "+1 Niveau avec Croc Rasoir / Contact d'un Croc Rasoir (PLA)"
+                    "condition": "+1 Niveau avec Croc Rasoir"
                 }
             ],
             "next": null,
@@ -67245,12 +67235,12 @@
                 {
                     "pokedexId": 137,
                     "name": "Porygon",
-                    "condition": "Echange avec Am\u00e9liorator / Contact d'un Am\u00e9liorator (PLA)"
+                    "condition": "Échange avec Am\u00e9liorator"
                 },
                 {
                     "pokedexId": 233,
                     "name": "Porygon2",
-                    "condition": "Echange avec CD Douteux / Contact d'un CD Douteux (PLA)"
+                    "condition": "Échange avec CD Douteux"
                 }
             ],
             "next": null,
@@ -67549,7 +67539,7 @@
                 {
                     "pokedexId": 299,
                     "name": "Tarinor",
-                    "condition": "+1 Niveau dans Champ Magn\u00e9tique / Pierre Foudre (PLA)"
+                    "condition": "+1 Niveau dans Champ Magn\u00e9tique"
                 }
             ],
             "next": null,
@@ -67690,7 +67680,7 @@
                 {
                     "pokedexId": 356,
                     "name": "T\u00e9raclope",
-                    "condition": "Echange avec Tissu Fauche / Contact d'un Tissu Fauche (PLA)"
+                    "condition": "Échange avec Tissu Fauche"
                 }
             ],
             "next": null,
@@ -70759,11 +70749,6 @@
                     "pokedexId": 503,
                     "name": "Clarimal",
                     "condition": "Niveau 36"
-                },
-                {
-                    "pokedexId": 503,
-                    "name": "Clarimal de Hisui",
-                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -70906,11 +70891,6 @@
                     "pokedexId": 503,
                     "name": "Clamiral",
                     "condition": "Niveau 36"
-                },
-                {
-                    "pokedexId": 503,
-                    "name": "Clarimal de Hisui",
-                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -77486,11 +77466,6 @@
                     "pokedexId": 549,
                     "name": "Fragilady",
                     "condition": "Pierre Soleil"
-                },
-                {
-                    "pokedexId": 549,
-                    "name": "Fragilady de Hisui",
-                    "condition": "Pierre Soleil (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -83171,7 +83146,7 @@
                 {
                     "pokedexId": 589,
                     "name": "Lan\u00e7argot",
-                    "condition": "Echange avec Escargaume"
+                    "condition": "Échange avec Escargaume"
                 }
             ],
             "mega": null
@@ -83314,7 +83289,7 @@
                 {
                     "pokedexId": 588,
                     "name": "Carabing",
-                    "condition": "Echange avec Escargaume"
+                    "condition": "Échange avec Escargaume"
                 }
             ],
             "next": null,
@@ -87129,7 +87104,7 @@
                 {
                     "pokedexId": 617,
                     "name": "Limaspeed",
-                    "condition": "Echange avec Carabing"
+                    "condition": "Échange avec Carabing"
                 }
             ],
             "mega": null
@@ -87268,7 +87243,7 @@
                 {
                     "pokedexId": 616,
                     "name": "Escargaume",
-                    "condition": "Echange avec Carabing"
+                    "condition": "Échange avec Carabing"
                 }
             ],
             "next": null,
@@ -88677,11 +88652,6 @@
                     "pokedexId": 628,
                     "name": "Gueriaigle",
                     "condition": "Niveau 54"
-                },
-                {
-                    "pokedexId": 628,
-                    "name": "Gueriaigle de Hisui",
-                    "condition": "Niveau 54 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -96230,7 +96200,7 @@
                 {
                     "pokedexId": 683,
                     "name": "Cocotine",
-                    "condition": "Echange avec Sachet Senteur"
+                    "condition": "Échange avec Sachet Senteur"
                 }
             ],
             "mega": null
@@ -96365,7 +96335,7 @@
                 {
                     "pokedexId": 682,
                     "name": "Fluvetin",
-                    "condition": "Echange avec Sachet Senteur"
+                    "condition": "Échange avec Sachet Senteur"
                 }
             ],
             "next": null,
@@ -96502,7 +96472,7 @@
                 {
                     "pokedexId": 685,
                     "name": "Cupcanaille",
-                    "condition": "Echange avec Chantibonbon"
+                    "condition": "Échange avec Chantibonbon"
                 }
             ],
             "mega": null
@@ -96637,7 +96607,7 @@
                 {
                     "pokedexId": 684,
                     "name": "Sucroquin",
-                    "condition": "Echange avec Chantibonbon"
+                    "condition": "Échange avec Chantibonbon"
                 }
             ],
             "next": null,
@@ -98759,7 +98729,7 @@
                 {
                     "pokedexId": 133,
                     "name": "\u00c9voli",
-                    "condition": "Bonheur + Nuit + 1 niveau + aucune capacit\u00e9 F\u00e9e"
+                    "condition": "Bonheur + capacit\u00e9 F\u00e9e"
                 }
             ],
             "next": null,
@@ -100451,11 +100421,6 @@
                     "pokedexId": 713,
                     "name": "S\u00e9racrawl",
                     "condition": "Niveau 37"
-                },
-                {
-                    "pokedexId": 713,
-                    "name": "S\u00e9racrawl de Hisui",
-                    "condition": "Niveau 37 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -101762,7 +101727,7 @@
                 {
                     "pokedexId": 724,
                     "name": "Arch\u00e9duc",
-                    "condition": "Niveau 34 / Niveau 36 (PLA uniquement)"
+                    "condition": "Niveau 34"
                 }
             ],
             "mega": null
@@ -101908,7 +101873,7 @@
                 {
                     "pokedexId": 724,
                     "name": "Arch\u00e9duc",
-                    "condition": "Niveau 34 / Niveau 36 (PLA uniquement)"
+                    "condition": "Niveau 34"
                 }
             ],
             "mega": null
@@ -102052,7 +102017,7 @@
                 {
                     "pokedexId": 723,
                     "name": "Effl\u00e8che",
-                    "condition": "Niveau 34 / Niveau 36 (PLA uniquement)"
+                    "condition": "Niveau 34"
                 }
             ],
             "next": null,
@@ -103781,7 +103746,7 @@
                 {
                     "pokedexId": 738,
                     "name": "Lucanon",
-                    "condition": "+1 Niveau au Grand Canyon de Poni ou Mont Ardent (SL/USUL) / Pierre Foudre (EB)"
+                    "condition": "Pierre Foudre"
                 }
             ],
             "mega": null
@@ -103923,7 +103888,7 @@
                 {
                     "pokedexId": 738,
                     "name": "Lucanon",
-                    "condition": "+1 Niveau au Grand Canyon de Poni ou Mont Ardent (SL/USUL) / Pierre Foudre (EB)"
+                    "condition": "Pierre Foudre"
                 }
             ],
             "mega": null
@@ -104063,7 +104028,7 @@
                 {
                     "pokedexId": 737,
                     "name": "Chrysapile",
-                    "condition": "+1 Niveau au Grand Canyon de Poni ou Mont Ardent (SL/USUL) / Pierre Foudre (depuis EB)"
+                    "condition": "Pierre Foudre"
                 }
             ],
             "next": null,
@@ -104204,7 +104169,7 @@
                 {
                     "pokedexId": 740,
                     "name": "Crabominable",
-                    "condition": "+1 Niveau Mont Lanakila / Pierre Glace (depuis EB)"
+                    "condition": "Pierre Glace"
                 }
             ],
             "mega": null
@@ -126470,7 +126435,7 @@
                 {
                     "pokedexId": 215,
                     "name": "Farfuret de Hisui",
-                    "condition": "+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir (PLA)"
+                    "condition": "+1 Niveau avec Griffe Rasoir"
                 }
             ],
             "next": null,
@@ -128980,7 +128945,7 @@
                 {
                     "pokedexId": 923,
                     "name": "Pohmarmotte",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "mega": null
@@ -129130,7 +129095,7 @@
                 {
                     "pokedexId": 923,
                     "name": "Pohmarmotte",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "mega": null
@@ -129278,7 +129243,7 @@
                 {
                     "pokedexId": 922,
                     "name": "Pohmotte",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "next": null,
@@ -132534,7 +132499,7 @@
                 {
                     "pokedexId": 947,
                     "name": "Virevorreur",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "mega": null
@@ -132673,7 +132638,7 @@
                 {
                     "pokedexId": 946,
                     "name": "Virovent",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "next": null,
@@ -133496,7 +133461,7 @@
                 {
                     "pokedexId": 954,
                     "name": "B\u00e9rasca",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "mega": null
@@ -133635,7 +133600,7 @@
                 {
                     "pokedexId": 953,
                     "name": "L\u00e9boul\u00e9rou",
-                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
+                    "condition": "1000 pas + 1 Niveau"
                 }
             ],
             "next": null,
