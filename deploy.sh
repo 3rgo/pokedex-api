@@ -87,7 +87,6 @@ php artisan optimize:clear
 
 # Warm cache
 php artisan config:cache
-php artisan icons:cache
 php artisan route:cache
 php artisan view:cache
 
