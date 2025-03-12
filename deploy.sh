@@ -1,118 +1,93 @@
 #!/bin/bash
 
-# App name
+# App name and Discord webhook URL
 APP_NAME="Pokedex API"
-# Discord webhook URL (REPLACE WITH YOUR ACTUAL WEBHOOK URL)
 DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1335252458800156722/3G5WTGkmUYECTWLeE0lUVTCG9o8J3WwARwUZ5UexMmQBsMVtZvOigdFUb8A5R26jblHj"
-# Lock file path
 LOCK_FILE="./deployment.lock"
 
+# Find PHP CLI binary matching the CGI version
+find_php_cli() {
+    local cgi_version=$(/usr/bin/php -r 'echo PHP_VERSION;' 2>/dev/null)
+    echo "CGI PHP version: $cgi_version"
+
+    # Search for matching CLI PHP
+    for path in /opt/cpanel/ea-php*/root/usr/bin/php /opt/alt/php*/usr/bin/php /usr/bin/php*; do
+        if [ -f "$path" ] && $path -r 'echo php_sapi_name();' 2>/dev/null | grep -q "cli"; then
+            if [ "$($path -r 'echo PHP_VERSION;' 2>/dev/null)" = "$cgi_version" ]; then
+                echo "$path"
+                return 0
+            fi
+        fi
+    done
+
+    # Fallback to any CLI PHP
+    for path in /opt/cpanel/ea-php*/root/usr/bin/php /opt/alt/php*/usr/bin/php /usr/bin/php*; do
+        if [ -f "$path" ] && $path -r 'echo php_sapi_name();' 2>/dev/null | grep -q "cli"; then
+            echo "$path"
+            return 0
+        fi
+    done
+
+    return 1
+}
+
+# Send Discord notification
 send_discord_notification() {
-    # Check if arguments are provided
-    if [[ -z "$1" || -z "$2" ]]; then
-        echo "Usage: $0 <message> <discord_webhook_url>" >&2
-        exit 1
-    fi
-
-    local message="$1"
-    local url="$2"
-
-    local payload=$(cat <<EOF
-{
-    "content": "$message"
-}
-EOF
-)
-    curl -H "Content-Type: application/json" -X POST -d "$payload" "$url"
-    if [[ $? -ne 0 ]]; then
-        echo "Error sending Discord notification: $message" >&2
-    fi
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$1\"}" "$2"
 }
 
-# Check for --force flag
-force_deploy=false
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        --force)
-            force_deploy=true
-            shift
-            ;;
-        *)
-            break  # Break out of the loop if no more flags
-            ;;
-    esac
-done
-
-# Check for available commits on origin (unless --force is used)
-if ! $force_deploy; then  # Only check if force_deploy is false
-    if ! git fetch origin &>/dev/null || [[ -z "$(git log --oneline ..origin/master)" ]]; then
-        echo "No new commits available. Exiting."
-        exit 0
+# Main deployment function
+deploy() {
+    # Find PHP CLI binary
+    PHP_BIN=$(find_php_cli)
+    if [ -z "$PHP_BIN" ]; then
+        echo "Error: Cannot find PHP CLI binary"
+        return 1
     fi
-fi
 
-# Deployment start time
-start_time=$(date +%s)
+    echo "Using PHP: $PHP_BIN ($(PHP_BIN -r 'echo php_sapi_name();'))"
 
-# Create lock file with timestamp
-echo "$start_time" > "$LOCK_FILE"
-
-# Check if the function exists in .bashrc
-if declare -f send_discord_notification &>/dev/null; then
-    # Send Discord notification (deployment started)
-    start_date=$(date '+%Y-%m-%d %H:%M:%S') # Portable date format
+    # Record start time
+    start_time=$(date +%s)
+    echo "$start_time" > "$LOCK_FILE"
+    start_date=$(date '+%Y-%m-%d %H:%M:%S')
     send_discord_notification "**$APP_NAME** deployment started at $start_date" "$DISCORD_WEBHOOK_URL"
-fi
 
-# Deployment commands
+    # Deployment steps
+    $PHP_BIN artisan down --render="errors::503" --retry=15 --refresh=15
 
-# Enable maintenance mode
-php artisan down
+    git checkout -- .
+    git pull
 
-# Update code
-git checkout -- .
-git pull
+    $PHP_BIN $(which composer) install --no-dev --optimize-autoloader
+    npm ci
+    npm run build
 
-# Install dependencies
-composer install --no-dev --optimize-autoloader
+    find . -type d -exec chmod 755 {} \;
+    find . -type f -exec chmod 644 {} \;
+    chmod -R 775 storage bootstrap/cache
 
-# Reset file permissions
-# sudo chown -R ubuntu:www-data .
-find . -type d -exec chmod 755 {} \;
-find . -type f -exec chmod 644 {} \;
-chmod -R 775 storage bootstrap/cache
+    $PHP_BIN artisan optimize:clear
+    $PHP_BIN artisan config:cache
+    $PHP_BIN artisan route:cache
+    $PHP_BIN artisan view:cache
+    $PHP_BIN artisan migrate --force
+    $PHP_BIN artisan up
+    $PHP_BIN artisan l5-swagger:generate
 
-# Clear cache
-php artisan optimize:clear
+    # Clean up and notify
+    rm "$LOCK_FILE"
+    end_time=$(date +%s)
+    duration=$((end_time - start_time))
+    end_date=$(date '+%Y-%m-%d %H:%M:%S')
+    send_discord_notification "**$APP_NAME** deployment finished at $end_date (duration: ${duration} seconds)" "$DISCORD_WEBHOOK_URL"
 
-# Warm cache
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
+    return 0
+}
 
-# Run migrations
-php artisan migrate --force
-
-# Disable maintenance mode
-php artisan up
-
-# Generate API doc
-php artisan l5-swagger:generate
-
-# Remove lock file
-rm "$LOCK_FILE"
-
-# Deployment end time
-end_time=$(date +%s)
-
-# Calculate duration
-duration=$((end_time - start_time))
-
-# Check if the function exists in .bashrc
-if declare -f send_discord_notification &>/dev/null; then
-    # Send Discord notification (deployment finished)
-    end_date=$(date '+%Y-%m-%d %H:%M:%S') # Portable date format
-    send_discord_notification "**$APP_NAME** deployment finished at $end_date (duration: ${duration} seconds)." "$DISCORD_WEBHOOK_URL"
+# Check if we should deploy
+if [ "$1" = "--force" ] || git fetch origin && [ -n "$(git log --oneline ..origin/master)" ]; then
+    deploy
 fi
 
 exit 0
