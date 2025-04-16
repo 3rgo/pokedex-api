@@ -4,6 +4,7 @@
 APP_NAME="3rgo.tech"
 DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1335252458800156722/3G5WTGkmUYECTWLeE0lUVTCG9o8J3WwARwUZ5UexMmQBsMVtZvOigdFUb8A5R26jblHj"
 LOCK_FILE="./deployment.lock"
+BRANCH="master"
 
 # Find a matching CLI PHP binary
 PHP_BIN=""
@@ -85,7 +86,7 @@ deploy() {
 }
 
 # Check if we should deploy
-if [ "$1" = "--force" ] || { $GIT_BIN fetch -q origin && [ -n "$($GIT_BIN log --oneline ..origin/master)" ]; }; then
+if [ "$1" = "--force" ] || { $GIT_BIN fetch -q origin && [ -n "$($GIT_BIN log --oneline ..origin/$BRANCH)" ]; }; then
     deploy
 fi
 
