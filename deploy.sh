@@ -2,7 +2,7 @@
 
 # App name and Discord webhook URL
 APP_NAME="3rgo.tech"
-DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1335252458800156722/3G5WTGkmUYECTWLeE0lUVTCG9o8J3WwARwUZ5UexMmQBsMVtZvOigdFUb8A5R26jblHj"
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1362084173355155597/CAG_BCNm4k2bTyX1VcuGGiqtMpIS0hNLbxYRri9Ihvmr3WQAvV-u4nOREyyIQpDVcSfL"
 LOCK_FILE="./deployment.lock"
 BRANCH="master"
 
